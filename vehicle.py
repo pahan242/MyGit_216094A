@@ -1,5 +1,6 @@
 from van import Van
 from bike import Bike
+from plane import Plane
 
 print("Pahan")
 
@@ -11,5 +12,8 @@ van2 = Van("B")
 
 bike1 = Bike("C", "Yamaha")
 
+plane1 = Plane("D", "10")
+
 print(van2.name)
 print(bike1.type)
+print(plane1.name)
